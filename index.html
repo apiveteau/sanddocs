@@ -16,7 +16,15 @@ sidebar:
 </head>
 <body>
   <script src="edit_github_plugin.js"></script>
-  {% include nav.html %}
+  <ul>
+    {% for item in site.data.sidebar-sample %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+    {% if item.subnav %}
+    {% include nav.html nav=item.subnav %}
+    {% endif %}
+    {% endfor %}
+  </ul>
   <div id="app"></div>
   <script>
     window.$docsify = {
