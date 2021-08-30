@@ -1,0 +1,18 @@
+:root {
+    /* Coverpage */
+    --cover-background-image: linear-gradient(to left bottom, #FFFFFF, 35%, #8fb5b3);
+    --cover-button-primary-background: #14948c;
+    --cover-button-primary-border: #14948c;
+
+    /* Sidebar */
+    --sidebar-nav-link-color--active : #294a48;
+    --sidebar-toggle-icon-color : #14948c;
+    --navbar-menu-link-color--hover : #14948c;
+    --sidebar-nav-link-border-color--active : #14948c;
+    --sidebar-nav-pagelink-background-image--active  : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%2841, 74, 72%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--collapse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%28190, 190, 190%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--loaded  : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='rgb%28190, 190, 190%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+
+    /* Blockquote */
+    --blockquote-border-color: #14948c;
+}
