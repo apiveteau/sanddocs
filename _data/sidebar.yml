@@ -1,5 +1,5 @@
 
-nav:
+navbar:
   - title: Deployment
   url: deployment.html
   subnav:
