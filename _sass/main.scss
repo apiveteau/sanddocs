@@ -156,6 +156,11 @@ body {
         line-height: 1.5rem;
       }
     }
+    & nav>ul>ul>ul>li>a {
+      font-size: 22px;
+      font-weight: 300;
+      text-decoration: underline;
+    }
   }
   & > main {
     grid-area: main;
