@@ -1,344 +1,344 @@
 - name: Welcome
-  link: /documentation/README.html
+  link: /sanddocs/documentation/README.html
 - name: DataMa Web application
-  link: /documentation/web-application.html
+  link: /sanddocs/documentation/web-application.html
   subnav:
     - name: Home
-      link: /documentation/home/home.html
+      link: /sanddocs/documentation/home/home.html
       subnav:
         - name: Get inspired
-          link: /documentation/home/use_cases/use_cases_examples.html
+          link: /sanddocs/documentation/home/use_cases/use_cases_examples.html
           subnav:
             - name: Web performance - Google Analytics
-              link: /documentation/home/use_cases/web_performance_GA.html
+              link: /sanddocs/documentation/home/use_cases/web_performance_GA.html
             - name: Marketing - Campaign
-              link: /documentation/home/use_cases/marketing_campaign.html
+              link: /sanddocs/documentation/home/use_cases/marketing_campaign.html
               subnav:
                 - name: Marketing Campaign - Continuous dimensions
-                  link: /documentation/home/use_cases/marketing_continuous.html
+                  link: /sanddocs/documentation/home/use_cases/marketing_continuous.html
                 - name: Marketing Campaign - Scope
-                  link: /documentation/home/use_cases/marketing_scope.html
+                  link: /sanddocs/documentation/home/use_cases/marketing_scope.html
             - name: Product - AB test
-              link: /documentation/home/use_cases/product_AB_test.html
+              link: /sanddocs/documentation/home/use_cases/product_AB_test.html
             - name: Finance Controlling
-              link: /documentation/home/use_cases/finance_controlling.html
+              link: /sanddocs/documentation/home/use_cases/finance_controlling.html
             - name: Content - Content Square data
-              link: /documentation/home/use_cases/Content_CS.html
+              link: /sanddocs/documentation/home/use_cases/Content_CS.html
     - name: Core app
-      link: /documentation/core-app.html
+      link: /sanddocs/documentation/core-app.html
       subnav:
         - name: Header
-          link: /documentation/core-app/header.html
+          link: /sanddocs/documentation/core-app/header.html
           subnav:
             - name: Input
-              link: /documentation/core-app/header/input.html
+              link: /sanddocs/documentation/core-app/header/input.html
               subnav:
                 - name: Source
-                  link: /documentation/core-app/header/input/source.html
+                  link: /sanddocs/documentation/core-app/header/input/source.html
                 - name: Metric relation
-                  link: /documentation/core-app/header/input/metric-relation.html
+                  link: /sanddocs/documentation/core-app/header/input/metric-relation.html
             - name: Create new use case
-              link: /documentation/core-app/header/create-new-use-case.html
+              link: /sanddocs/documentation/core-app/header/create-new-use-case.html
               subnav:
                 - name: Google Sheet
-                  link: /documentation/core-app/header/create-new-use-case/google-sheet.html
+                  link: /sanddocs/documentation/core-app/header/create-new-use-case/google-sheet.html
                 - name: Excel file
-                  link: /documentation/core-app/header/create-new-use-case/excel-file.html
+                  link: /sanddocs/documentation/core-app/header/create-new-use-case/excel-file.html
                 - name: CSV file
-                  link: /documentation/core-app/header/create-new-use-case/csv.html
+                  link: /sanddocs/documentation/core-app/header/create-new-use-case/csv.html
                 - name: Google Analytics
-                  link: /documentation/core-app/header/create-new-use-case/google-analytics.html
+                  link: /sanddocs/documentation/core-app/header/create-new-use-case/google-analytics.html
                 - name: Extensions
-                  link: /documentation/core-app/header/create-new-use-case/extensions.html
+                  link: /sanddocs/documentation/core-app/header/create-new-use-case/extensions.html
                   subnav:
                     - name: Tableau Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/tableau.html
+                      link: /sanddocs/documentation/core-app/header/create-new-use-case/extensions/tableau.html
                       subnav:
                         - name: Tableau demo
-                          link: /documentation/core-app/header/create-new-use-case/extensions/tableau-demo.html
+                          link: /sanddocs/documentation/core-app/header/create-new-use-case/extensions/tableau-demo.html
                     - name: PowerBI Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/PowerBI.html
+                      link: /sanddocs/documentation/core-app/header/create-new-use-case/extensions/PowerBI.html
                     - name: DataIku Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/DataIku.html
+                      link: /sanddocs/documentation/core-app/header/create-new-use-case/extensions/DataIku.html
                     - name: Alteryx Extension
-                      link: /documentation/core-app/header/create-new-use-case/extensions/Alteryx.html
+                      link: /sanddocs/documentation/core-app/header/create-new-use-case/extensions/Alteryx.html
             - name: Save
-              link: /documentation/core-app/header/save.html
+              link: /sanddocs/documentation/core-app/header/save.html
             - name: Loaded version
-              link: /documentation/core-app/header/loaded-version.html
+              link: /sanddocs/documentation/core-app/header/loaded-version.html
             - name: Export results
-              link: /documentation/core-app/header/export-results.html
+              link: /sanddocs/documentation/core-app/header/export-results.html
               subnav:
                 - name: Tableau
-                  link: /documentation/core-app/header/export-results/tableau.html
+                  link: /sanddocs/documentation/core-app/header/export-results/tableau.html
                 - name: Excel
-                  link: /documentation/core-app/header/export-results/excel.html
+                  link: /sanddocs/documentation/core-app/header/export-results/excel.html
                 - name: Power BI
-                  link: /documentation/core-app/header/export-results/PowerBI.html
+                  link: /sanddocs/documentation/core-app/header/export-results/PowerBI.html
                 - name: Document
-                  link: /documentation/core-app/header/export-results/document.html
+                  link: /sanddocs/documentation/core-app/header/export-results/document.html
                 - name: URL
-                  link: /documentation/core-app/header/export-results/url.html
+                  link: /sanddocs/documentation/core-app/header/export-results/url.html
                 - name: Slack & Email
-                  link: /documentation/core-app/header/export-results/slack-and-email.html
+                  link: /sanddocs/documentation/core-app/header/export-results/slack-and-email.html
             - name: Change metrics relation
-              link: /documentation/core-app/header/change-metrics-relation.html
+              link: /sanddocs/documentation/core-app/header/change-metrics-relation.html
             - name: Recent features
-              link: /documentation/core-app/header/recent-features.html
+              link: /sanddocs/documentation/core-app/header/recent-features.html
         - name: Menu
-          link: /documentation/core-app/menu
+          link: /sanddocs/documentation/core-app/menu
           subnav:
             - name: Definitions
-              link: /documentation/core-app/menu/definitions.html
+              link: /sanddocs/documentation/core-app/menu/definitions.html
             - name: Filters
-              link: /documentation/core-app/menu/filters.html
+              link: /sanddocs/documentation/core-app/menu/filters.html
         - name: DataMa Compare
-          link: /documentation/core-app/compare.html
+          link: /sanddocs/documentation/core-app/compare.html
           subnav:
             - name: Model
-              link: /documentation/core-app/compare/model.html
+              link: /sanddocs/documentation/core-app/compare/model.html
               subnav:
                 - name: Waterfall
-                  link: /documentation/core-app/compare/model/waterfall.html
+                  link: /sanddocs/documentation/core-app/compare/model/waterfall.html
                   subnav:
                     - name: Covariance
-                      link: /documentation/core-app/compare/model/waterfall/covariance.html
+                      link: /sanddocs/documentation/core-app/compare/model/waterfall/covariance.html
                     - name: Summary view
-                      link: /documentation/core-app/compare/model/waterfall/summary-view.html
+                      link: /sanddocs/documentation/core-app/compare/model/waterfall/summary-view.html
                 - name: Dimension (Mix & Perf)
-                  link: /documentation/core-app/compare/model/dimension-perf-and-mix.html
+                  link: /sanddocs/documentation/core-app/compare/model/dimension-perf-and-mix.html
                 - name: Other important modeling components
-                  link: /documentation/core-app/compare/model/other-important-modeling-components.html
+                  link: /sanddocs/documentation/core-app/compare/model/other-important-modeling-components.html
             - name: Web application
-              link: /documentation/core-app/compare/web-application.html
+              link: /sanddocs/documentation/core-app/compare/web-application.html
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/compare/web-application/dashboard.html
+                  link: /sanddocs/documentation/core-app/compare/web-application/dashboard.html
                   subnav:
                     - name: Value box
-                      link: /documentation/core-app/compare/web-application/dashboard/value-box.html
+                      link: /sanddocs/documentation/core-app/compare/web-application/dashboard/value-box.html
                     - name: Waterfall
-                      link: /documentation/core-app/compare/web-application/dashboard/waterfall.html
+                      link: /sanddocs/documentation/core-app/compare/web-application/dashboard/waterfall.html
                       subnav:
                         - name: Chart
-                          link: /documentation/core-app/compare/web-application/dashboard/waterfall/chart.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/waterfall/chart.html
                           subnav:
                             - name: Zoomed View
-                              link: /documentation/core-app/compare/web-application/dashboard/waterfall/chart/zoomed-view.html
+                              link: /sanddocs/documentation/core-app/compare/web-application/dashboard/waterfall/chart/zoomed-view.html
                         - name: Summary Chart
-                          link: /documentation/core-app/compare/web-application/dashboard/waterfall/summary-chart.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/waterfall/summary-chart.html
                         - name: Funnel
-                          link: /documentation/core-app/compare/web-application/dashboard/waterfall/funnel.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/waterfall/funnel.html
                     - name: Detailed View
-                      link: /documentation/core-app/compare/web-application/dashboard/detailed-view.html
+                      link: /sanddocs/documentation/core-app/compare/web-application/dashboard/detailed-view.html
                       subnav:
                         - name: Moves
-                          link: /documentation/core-app/compare/web-application/dashboard/detailed-view/moves.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/detailed-view/moves.html
                         - name: Bridge
-                          link: /documentation/core-app/compare/web-application/dashboard/detailed-view/bridge.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/detailed-view/bridge.html
                         - name: Detailed Bridge
-                          link: /documentation/core-app/compare/web-application/dashboard/detailed-view/detailed-bridge.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/detailed-view/detailed-bridge.html
                     - name: Dimension analysis
-                      link: /documentation/core-app/compare/web-application/dashboard/dimension-analysis.html
+                      link: /sanddocs/documentation/core-app/compare/web-application/dashboard/dimension-analysis.html
                       subnav:
                         - name: Mix effect
-                          link: /documentation/core-app/compare/web-application/dashboard/dimension-analysis/mix-effect.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/dimension-analysis/mix-effect.html
                         - name: Performance effect
-                          link: /documentation/core-app/compare/web-application/dashboard/dimension-analysis/performance-effect.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/dashboard/dimension-analysis/performance-effect.html
                 - name: Menu
-                  link: /documentation/core-app/compare/web-application/menu.html
+                  link: /sanddocs/documentation/core-app/compare/web-application/menu.html
                   subnav:
                     - name: Overview
-                      link: /documentation/core-app/compare/web-application/menu/overview.html
+                      link: /sanddocs/documentation/core-app/compare/web-application/menu/overview.html
                     - name: Settings
-                      link: /documentation/core-app/compare/web-application/menu/settings.html
+                      link: /sanddocs/documentation/core-app/compare/web-application/menu/settings.html
                       subnav:
                         - name: Aggregation
-                          link: /documentation/core-app/compare/web-application/menu/aggregation.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/menu/aggregation.html
                         - name: Smart Dimension
-                          link: /documentation/core-app/compare/web-application/menu/smart-dimension.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/menu/smart-dimension.html
                         - name: Skipped steps
-                          link: /documentation/core-app/compare/web-application/menu/skipped-steps.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/menu/skipped-steps.html
                         - name: Compare of Compare
-                          link: /documentation/core-app/compare/web-application/menu/compare-of-compare.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/menu/compare-of-compare.html
                         - name: Split Mix and Perf
-                          link: /documentation/core-app/compare/web-application/menu/split-mix-and-perf.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/menu/split-mix-and-perf.html
 #                            - name: Signifiance test
-#                              link: /documentation/core-app/compare/web-application/menu/signifiance-test.html
+#                              link: /sanddocs/documentation/core-app/compare/web-application/menu/signifiance-test.html
                         - name: Display Options
-                          link: /documentation/core-app/compare/web-application/menu/display-options.html
+                          link: /sanddocs/documentation/core-app/compare/web-application/menu/display-options.html
         - name: DataMa Pivot
-          link: /documentation/core-app/pivot.html
+          link: /sanddocs/documentation/core-app/pivot.html
           subnav:
             - name: General introduction
-              link: /documentation/core-app/pivot/general-introduction.html
+              link: /sanddocs/documentation/core-app/pivot/general-introduction.html
             - name: Use cases examples
-              link: /documentation/core-app/pivot/use_cases-examples.html
+              link: /sanddocs/documentation/core-app/pivot/use_cases-examples.html
               subnav:
                 - name: Web performance - Google Analytics
-                  link: /documentation/core-app/pivot/use_cases-examples/web-performance-google-analytics.html
+                  link: /sanddocs/documentation/core-app/pivot/use_cases-examples/web-performance-google-analytics.html
             - name: Web application
-              link: /documentation/core-app/pivot/web-application.html
+              link: /sanddocs/documentation/core-app/pivot/web-application.html
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/pivot/web-application/dashboard.html
+                  link: /sanddocs/documentation/core-app/pivot/web-application/dashboard.html
                   subnav:
                     - name: Value boxes
-                      link: /documentation/core-app/pivot/web-application/dashboard/value-boxes.html
+                      link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/value-boxes.html
                     - name: Dimension importance
-                      link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance.html
+                      link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/dimension-importance.html
                       subnav:
                         - name: Dimension comparison
-                          link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance/dimension-comparison.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/dimension-importance/dimension-comparison.html
                         - name: Decision tree
-                          link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance/decision-tree.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/dimension-importance/decision-tree.html
                         - name: Table
-                          link: /documentation/core-app/pivot/web-application/dashboard/dimension-importance/table.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/dimension-importance/table.html
                     - name: Clustering
-                      link: /documentation/core-app/pivot/web-application/dashboard/clustering.html
+                      link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/clustering.html
                       subnav:
                         - name: Simple chart
-                          link: /documentation/core-app/pivot/web-application/dashboard/clustering/simple-chart.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/clustering/simple-chart.html
                         - name: Clustered chart
-                          link: /documentation/core-app/pivot/web-application/dashboard/clustering/clustered-chart.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/clustering/clustered-chart.html
                     - name: Interdependence
-                      link: /documentation/core-app/pivot/web-application/dashboard/interdependence.html
+                      link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/interdependence.html
                     - name: Interdependence detailed view
-                      link: /documentation/core-app/pivot/web-application/dashboard/interdependence-detailed-view.html
+                      link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/interdependence-detailed-view.html
                       subnav:
                         - name: Sankey
-                          link: /documentation/core-app/pivot/web-application/dashboard/interdependence-detailed-view/sankey.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/dashboard/interdependence-detailed-view/sankey.html
                 - name: Menu
-                  link: /documentation/core-app/pivot/web-application/menu.html
+                  link: /sanddocs/documentation/core-app/pivot/web-application/menu.html
                   subnav:
                     - name: Settings
-                      link: /documentation/core-app/pivot/web-application/menu/settings.html
+                      link: /sanddocs/documentation/core-app/pivot/web-application/menu/settings.html
                       subnav:
                         - name: Tree depth
-                          link: /documentation/core-app/pivot/web-application/menu/settings/tree-depth.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/menu/settings/tree-depth.html
                         - name: Aggregation in %
-                          link: /documentation/core-app/pivot/web-application/menu/settings/aggregation-in-percent.html
+                          link: /sanddocs/documentation/core-app/pivot/web-application/menu/settings/aggregation-in-percent.html
 #                            - name: Continuous clustering depth
-#                              link: /documentation/core-app/pivot/web-application/menu/settings/continuous-clustering-depth.html
+#                              link: /sanddocs/documentation/core-app/pivot/web-application/menu/settings/continuous-clustering-depth.html
         - name: DataMa Impact
-          link: /documentation/core-app/impact.html
+          link: /sanddocs/documentation/core-app/impact.html
           subnav:
             - name: Web application
-              link: /documentation/core-app/impact/web-application.html
+              link: /sanddocs/documentation/core-app/impact/web-application.html
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/impact/web-application/dashboard.html
+                  link: /sanddocs/documentation/core-app/impact/web-application/dashboard.html
                   subnav:
                     - name: Value boxes
-                      link: /documentation/core-app/impact/web-application/dashboard/value-boxes.html
+                      link: /sanddocs/documentation/core-app/impact/web-application/dashboard/value-boxes.html
                     - name: Models
-                      link: /documentation/core-app/impact/web-application/dashboard/models.html
+                      link: /sanddocs/documentation/core-app/impact/web-application/dashboard/models.html
                       subnav:
                         - name: Frequentist (Bernoulli)
-                          link: /documentation/core-app/impact/web-application/dashboard/models/frequentist/bernoulli.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/dashboard/models/frequentist/bernoulli.html
                         - name: Frequentist (other)
-                          link: /documentation/core-app/impact/web-application/dashboard/models/frequentist/other.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/dashboard/models/frequentist/other.html
                         - name: Forecasting
-                          link: /documentation/core-app/impact/web-application/dashboard/models/forecasting.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/dashboard/models/forecasting.html
                         - name: Boxplot
-                          link: /documentation/core-app/impact/web-application/dashboard/models/boxplot.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/dashboard/models/boxplot.html
                         - name: Bayesion bernoulli
-                          link: /documentation/core-app/impact/web-application/dashboard/models/bayesian-bernoulli.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/dashboard/models/bayesian-bernoulli.html
                 - name: Menu
-                  link: /documentation/core-app/impact/web-application/menu.html
+                  link: /sanddocs/documentation/core-app/impact/web-application/menu.html
                   subnav:
                     - name: Settings
-                      link: /documentation/core-app/impact/web-application/menu/settings.html
+                      link: /sanddocs/documentation/core-app/impact/web-application/menu/settings.html
                       subnav:
                         - name: General Introduction
-                          link: /documentation/core-app/impact/web-application/menu/settings/general-introduction.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/menu/settings/general-introduction.html
                         - name: Use cases examples
-                          link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples.html
+                          link: /sanddocs/documentation/core-app/impact/web-application/menu/settings/use_cases-examples.html
                           subnav:
                             - name: Test to compute
-                              link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/test-to-compute.html
+                              link: /sanddocs/documentation/core-app/impact/web-application/menu/settings/use_cases-examples/test-to-compute.html
                             - name: Confidence interval
-                              link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/confidence-interval.html
+                              link: /sanddocs/documentation/core-app/impact/web-application/menu/settings/use_cases-examples/confidence-interval.html
                             - name: Aggregation in %
-                              link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/aggregation-in-percent.html
+                              link: /sanddocs/documentation/core-app/impact/web-application/menu/settings/use_cases-examples/aggregation-in-percent.html
         - name: DataMa Journey
-          link: /documentation/core-app/journey.html
+          link: /sanddocs/documentation/core-app/journey.html
           subnav:
             - name: General introduction
-              link: /documentation/core-app/journey/general-introduction.html
+              link: /sanddocs/documentation/core-app/journey/general-introduction.html
             - name: Use cases examples
-              link: /documentation/core-app/journey/use_cases-examples.html
+              link: /sanddocs/documentation/core-app/journey/use_cases-examples.html
               subnav:
                 - name: Website cross page journeys
-                  link: /documentation/core-app/journey/use_cases-examples/website-cross-page-journeys.html
+                  link: /sanddocs/documentation/core-app/journey/use_cases-examples/website-cross-page-journeys.html
                 - name: Website intra page AB test
-                  link: /documentation/core-app/journey/use_cases-examples/website-intra-page-AB-test.html
+                  link: /sanddocs/documentation/core-app/journey/use_cases-examples/website-intra-page-AB-test.html
                 - name: Online acquisition
-                  link: /documentation/core-app/journey/use_cases-examples/online-acquisition.html
+                  link: /sanddocs/documentation/core-app/journey/use_cases-examples/online-acquisition.html
             - name: Model
-              link: /documentation/core-app/journey/model.html
+              link: /sanddocs/documentation/core-app/journey/model.html
             - name: Web application
-              link: /documentation/core-app/journey/web-application.html
+              link: /sanddocs/documentation/core-app/journey/web-application.html
               subnav:
                 - name: Dashboard
-                  link: /documentation/core-app/journey/web-application/dashboard.html
+                  link: /sanddocs/documentation/core-app/journey/web-application/dashboard.html
                   subnav:
                     - name: Value boxes
-                      link: /documentation/core-app/journey/web-application/dashboard/value-boxes.html
+                      link: /sanddocs/documentation/core-app/journey/web-application/dashboard/value-boxes.html
                     - name: Attribution
-                      link: /documentation/core-app/journey/web-application/dashboard/attribution.html
+                      link: /sanddocs/documentation/core-app/journey/web-application/dashboard/attribution.html
                       subnav:
                         - name: Priority
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/priority.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/attribution/priority.html
                         - name: Opportunity (value)
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/opportunity-value.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/attribution/opportunity-value.html
                         - name: Feasability (ratio)
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/feasability.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/attribution/feasability.html
                         - name: Lost Value
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/lost-value.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/attribution/lost-value.html
                         - name: Data
-                          link: /documentation/core-app/journey/web-application/dashboard/attribution/data.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/attribution/data.html
                     - name: Descriptive Comparison
-                      link: /documentation/core-app/journey/web-application/dashboard/description-comparison.html
+                      link: /sanddocs/documentation/core-app/journey/web-application/dashboard/description-comparison.html
                       subnav:
                         - name: Pareto
-                          link: /documentation/core-app/journey/web-application/dashboard/descriptive-comparison/pareto.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/descriptive-comparison/pareto.html
                         - name: Sunburst
-                          link: /documentation/core-app/journey/web-application/dashboard/descriptive-comparison/sunburst.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/descriptive-comparison/sunburst.html
                     - name: Detailed View
-                      link: /documentation/core-app/journey/web-application/dashboard/detailed-view.html
+                      link: /sanddocs/documentation/core-app/journey/web-application/dashboard/detailed-view.html
                       subnav:
                         - name: Simple Stat
-                          link: /documentation/core-app/journey/web-application/dashboard/detailed-view/simple-stat.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/detailed-view/simple-stat.html
                         - name: Flow
-                          link: /documentation/core-app/journey/web-application/dashboard/detailed-view/flow.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/detailed-view/flow.html
                           subnav:
                             - name: Relative
-                              link: /documentation/core-app/journey/web-application/dashboard/detailed-view/flow/relative.html
+                              link: /sanddocs/documentation/core-app/journey/web-application/dashboard/detailed-view/flow/relative.html
                         - name: Data
-                          link: /documentation/core-app/journey/web-application/dashboard/detailed-view/data.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/dashboard/detailed-view/data.html
                 - name: Menu
-                  link: /documentation/core-app/journey/web-application/menu.html
+                  link: /sanddocs/documentation/core-app/journey/web-application/menu.html
                   subnav:
                     - name: Settings
-                      link: /documentation/core-app/journey/web-application/menu/settings.html
+                      link: /sanddocs/documentation/core-app/journey/web-application/menu/settings.html
                       subnav:
                         - name: Attribution model
-                          link: /documentation/core-app/journey/web-application/menu/settings/attribution-model.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/menu/settings/attribution-model.html
                         - name: Journey Separator
-                          link: /documentation/core-app/journey/web-application/menu/settings/journey-separator.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/menu/settings/journey-separator.html
                         - name: Simplification of journeys
-                          link: /documentation/core-app/journey/web-application/menu/settings/simplification-of-journeys.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/menu/settings/simplification-of-journeys.html
                         - name: Number of steps displayed
-                          link: /documentation/core-app/journey/web-application/menu/settings/number-of-steps-displayed.html
+                          link: /sanddocs/documentation/core-app/journey/web-application/menu/settings/number-of-steps-displayed.html
         - name: DataMa Source
-          link: /documentation/core-app/source.html
+          link: /sanddocs/documentation/core-app/source.html
 - name: DataMa On Premise
-  link: /documentation/core-app/DataMa-on-premise.html
+  link: /sanddocs/documentation/core-app/DataMa-on-premise.html
 - name: Licence Terms
-  link: /documentation/core-app/licence-terms.html
+  link: /sanddocs/documentation/core-app/licence-terms.html
   subnav:
     - name: Privacy policy
-      link: /documentation/core-app/licence-terms/privacy-policy.html
+      link: /sanddocs/documentation/core-app/licence-terms/privacy-policy.html
     - name: Terms of Service
-      link: /documentation/core-app/licence-terms/terms-of-service.html
+      link: /sanddocs/documentation/core-app/licence-terms/terms-of-service.html
