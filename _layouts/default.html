@@ -3,10 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
 </head>
 <body>
-{% include navigation.html nav=site.data.navigation %}
-{{ content }}
+<header>
+
+</header>
+<aside>
+    <a href="#" class="burger"><i class="fas fa-bars"></i></a>
+    <nav>
+        {% include navigation.html nav=site.data.navigation %}
+    </nav>
+</aside>
+<main>
+    {{ content }}
+</main>
+<script>
+    $('aside>.burger').on('click', (e) => {
+        e.preventDefault();
+        $('body').toggleClass('menu-close')
+    })
+</script>
 </body>
 </html>
