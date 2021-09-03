@@ -138,10 +138,24 @@ body {
       right: 5px;
       top: 5px;
     }
+    & a {
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        content: "\f107";
+        transform: translateY(-50%);
+      }
+    }
     & ul {
       padding-left: 10px;
       margin: 0;
       list-style: none;
+      display: none;
+      &.show {
+        display: block;
+      }
       li {
         line-height: 1.5rem;
       }
