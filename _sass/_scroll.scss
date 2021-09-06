@@ -1,0 +1,19 @@
+* {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  &:hover {
+    &::-webkit-scrollbar {
+      background-color: rgba(20,149,136,0);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(20,149,136,1);
+      border-radius: 5px;
+    }
+  }
+}
