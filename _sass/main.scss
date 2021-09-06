@@ -171,9 +171,13 @@ body {
         display: inline-block;
         & > li {
           display: inline-block;
-          margin-left: 20px;
+          padding: 0 10px;
           & > a {
             font-weight: 400 !important;
+          }
+          & > ul {
+            text-align: left;
+            margin: 0;
           }
         }
       }
@@ -182,19 +186,19 @@ body {
 }
 @media screen and (max-width: 767px) {
   body > main {
-    padding: 0 40px;
+    padding: 20px 40px;
   }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   body > main {
-    padding: 0 100px;
+    padding: 20px 100px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   body > main {
-    padding: 0 200px;
+    padding: 20px 200px;
   }
 }
