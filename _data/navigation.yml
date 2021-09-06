@@ -1,5 +1,5 @@
 - name: Welcome
-  link: /documentation/Welcome.md
+  link: /documentation/Welcome.html
 - name: LaToMo Web application
   link: /documentation/web-application.html
   subnav:

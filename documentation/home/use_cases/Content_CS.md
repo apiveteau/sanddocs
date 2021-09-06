@@ -1,5 +1,7 @@
+---
 title: Content square data
 ---
+
 # Content – Content Square data
 
 > Find below information about the **« Content Square»**  example in our demo solution.
