@@ -1,5 +1,5 @@
-title: DataMa Home Page
-description: The Home page shows all your worbooks and workflows. A workbook is a DataMa analysis, which can be using on one or multiple DataMa solutions.
+title: LaToMo Home Page
+description: The Home page shows all your worbooks and workflows. A workbook is a LaToMo analysis, which can be using on one or multiple LaToMo solutions.
 ---
 # Home Page
 
@@ -9,7 +9,7 @@ description: The Home page shows all your worbooks and workflows. A workbook is 
 
 The Home page shows all your worbooks and workflows.
 
-A workbook is a DataMa analysis, which can be using on one or multiple DataMa solutions. Each workbook is linked to a dataset.
+A workbook is a LaToMo analysis, which can be using on one or multiple LaToMo solutions. Each workbook is linked to a dataset.
 
 You can create a new workbook by clicking the '+' card at the top left corner, or jump into a previously saved workbook from here.
 

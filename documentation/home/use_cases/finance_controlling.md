@@ -1,6 +1,6 @@
 # Finance Controlling
 
-> Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.datama.fr/) solution.
+> Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.LaToMo.fr/) solution.
 
 Here is a glimpse on the data:
 
@@ -8,7 +8,7 @@ Here is a glimpse on the data:
 
 You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1408263987)
 
-## In DataMa Compare
+## In LaToMo Compare
 
 This example made for financial assessment is different from other examples because the metric relation is not representing a conversion funnel but a business equation.
 

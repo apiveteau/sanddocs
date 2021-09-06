@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: DataMa Documentation
-email: contact@datama.fr
+title: LaToMo Documentation
+email: contact@LaToMo.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome on DataMa Documentation
 baseurl: "/sanddocs" # the subpath of your site, e.g. /blog

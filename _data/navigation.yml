@@ -1,6 +1,6 @@
 - name: Welcome
   link: /documentation/Welcome.md
-- name: DataMa Web application
+- name: LaToMo Web application
   link: /documentation/web-application.html
   subnav:
     - name: Home
@@ -92,7 +92,7 @@
               link: /documentation/core-app/menu/definitions.html
             - name: Filters
               link: /documentation/core-app/menu/filters.html
-        - name: DataMa Compare
+        - name: LaToMo Compare
           link: /documentation/core-app/compare.html
           subnav:
             - name: Model
@@ -167,7 +167,7 @@
 #                              link: /documentation/core-app/compare/web-application/menu/signifiance-test.html
                         - name: Display Options
                           link: /documentation/core-app/compare/web-application/menu/display-options.html
-        - name: DataMa Pivot
+        - name: LaToMo Pivot
           link: /documentation/core-app/pivot.html
           subnav:
             - name: General introduction
@@ -220,7 +220,7 @@
                           link: /documentation/core-app/pivot/web-application/menu/settings/aggregation-in-percent.html
 #                            - name: Continuous clustering depth
 #                              link: /documentation/core-app/pivot/web-application/menu/settings/continuous-clustering-depth.html
-        - name: DataMa Impact
+        - name: LaToMo Impact
           link: /documentation/core-app/impact.html
           subnav:
             - name: Web application
@@ -261,7 +261,7 @@
                               link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/confidence-interval.html
                             - name: Aggregation in %
                               link: /documentation/core-app/impact/web-application/menu/settings/use_cases-examples/aggregation-in-percent.html
-        - name: DataMa Journey
+        - name: LaToMo Journey
           link: /documentation/core-app/journey.html
           subnav:
             - name: General introduction
@@ -331,10 +331,10 @@
                           link: /documentation/core-app/journey/web-application/menu/settings/simplification-of-journeys.html
                         - name: Number of steps displayed
                           link: /documentation/core-app/journey/web-application/menu/settings/number-of-steps-displayed.html
-        - name: DataMa Source
+        - name: LaToMo Source
           link: /documentation/core-app/source.html
-- name: DataMa On Premise
-  link: /documentation/core-app/DataMa-on-premise.html
+- name: LaToMo On Premise
+  link: /documentation/core-app/LaToMo-on-premise.html
 - name: Licence Terms
   link: /documentation/core-app/licence-terms.html
   subnav:
