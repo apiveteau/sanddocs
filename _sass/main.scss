@@ -10,25 +10,25 @@ body {
   /* GRID PART */
   display: grid;
   grid-template-rows: 1fr 100px;
-  grid-template-columns: 350px repeat(3, 1fr);
+  grid-template-columns: 450px repeat(3, 1fr);
   grid-template-areas: "aside  main main main"
                     "footer footer footer footer";
   transition: 0.2s ease-in;
 
   &.menu-close {
     grid-template-rows: 1fr 100px;
-    grid-template-columns: 50px repeat(3, 1fr);
+    grid-template-columns: 40px repeat(3, 1fr);
     transition: 0.2s ease-in;
     & > aside {
-      width: 50px;
+      width: 40px;
       transition: 0.2s ease-in;
       & > .burger {
         right: 0;
         top: 0;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        text-align: center;
+        &::after {
+          content: "\f0da";
+          margin-left: 5px;
+        }
       }
       & > nav {
         display: none;
@@ -47,7 +47,7 @@ body {
     left: 0;
     z-index: 1;
     right: unset;
-    width: 350px;
+    width: 450px;
     transition: 0.2s ease-in;
     box-sizing: border-box;
     border-right: 1px solid rgba(0,0,0,0.1);
@@ -58,20 +58,62 @@ body {
       position: absolute;
       right: 5px;
       top: 5px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      &::after {
+        content: "\f0d9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        margin-left: 3px;
+      }
+      &:hover {
+        text-decoration: none;
+      }
     }
     & > nav {
       & > ul {
         // First level
-        & > li > a {
-          & + .collapser {
-            font-family: "Font Awesome 5 Free";
-            position: absolute;
-            left: 0;
-            top: 50%;
-            content: "\f067";
-            transform: translateY(-50%);
-            &.open {
-              content: "\f068";
+        & li {
+          & > a {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            width: 100%;
+            height: 1.5rem;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            & > .collapser {
+              position: absolute;
+              z-index: 1;
+              width: 30px;
+              height: 20px;
+              padding: 0;
+              background: transparent;
+              border: none;
+              bottom: 0;
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+              line-height: 20px;
+              color: $datagreen;
+              cursor: pointer;
+              &::before {
+                font-family: "Font Awesome 5 Free";
+                text-align: center;
+                content: "\f067";
+                font-weight: 600;
+              }
+              &.active {
+                &::before {
+                  content: "\f068";
+                }
+              }
+            }
+            & + ul:not(.open) {
+              display: none;
             }
           }
         }
@@ -91,6 +133,6 @@ body {
     position: relative;
     box-sizing: border-box;
     padding: 20px;
-    width: calc(100% - 350px);
+    width: calc(100% - 450px);
   }
 }

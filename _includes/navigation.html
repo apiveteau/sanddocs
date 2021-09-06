@@ -1,9 +1,13 @@
 <ul>
     {% for item in include.nav %}
     <li>
-        <a href="{{ site.url }}{{ baseurl }}{{ item.link }}">{{ item.name }}</a>
+        <a href="{{ site.url }}{{ baseurl }}{{ item.link }}">
+            {{ item.name }}
+            {% if item.subnav %}
+                <button class="collapser"></button>
+            {% endif %}
+        </a>
         {% if item.subnav %}
-            <button class="collapser"></button>
             {% include navigation.html nav=item.subnav %}
         {% endif %}
     </li>
