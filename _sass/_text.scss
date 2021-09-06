@@ -17,7 +17,7 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 /** Links */
 a { color: $datagreen; text-decoration: none; }
-a:visited { color: #0E6A61; }
+a:visited { color: $datagreen; }
 a:hover { color: #111; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
