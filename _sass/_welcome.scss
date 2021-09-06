@@ -24,9 +24,13 @@
       display: inline-block;
       & > li {
         display: inline-block;
-        margin-left: 20px;
+        padding: 0 10px;
         & > a {
           font-weight: 400 !important;
+        }
+        & > ul {
+          text-align: left;
+          margin: 0;
         }
       }
     }

@@ -1,8 +1,23 @@
 <header style="text-align: right">
     <ul>
         <li><a href="/">Welcome</a></li>
-        <li><a href="/SOLUTIONS">Solutions</a></li>
-        <li><a href="/NEWS">News</a></li>
-        <li><a href="/ABOUT">About Us</a></li>
+        <li class="dropdown-hover">
+            <a href="#">Solutions</a>
+            <ul class="dropdown">
+                <li><a href="{{ url }}{{ baseurl}}/documentation/core-app/compare.html" title="Learn about DataMa Compare solution">DataMa Compare</a></li>
+                <li><a href="{{ url }}{{ baseurl}}/documentation/core-app/impact.html" title="Learn about DataMa Impact solution">DataMa Impact</a></li>
+                <li><a href="{{ url }}{{ baseurl}}/documentation/core-app/pivot.html" title="Learn about DataMa Pivot solution">DataMa Pivot</a></li>
+                <li><a href="{{ url }}{{ baseurl}}/documentation/core-app/journey.html" title="Learn about DataMa Journey solution">DataMa Journey</a></li>
+                <li><a href="{{ url }}{{ baseurl}}/documentation/core-app/source.html" title="Learn about DataMa Source solution">DataMa Source</a></li>
+            </ul>
+        </li>
+        <li class="dropdown-hover">
+            <a href="#">News</a>
+            <ul class="dropdown">
+                <li><a href="{{ url }}{{ baseurl}}/release.html" title="See our latest releases">Release</a></li>
+                <li><a href="{{ url }}{{ baseurl}}/tip_of_the_week.html" title="See our latest tip of the week">Tips</a></li>
+            </ul>
+        </li>
+        <li><a href="https://datama.fr" target="_blank" title="About us">About Us</a></li>
     </ul>
 </header>
