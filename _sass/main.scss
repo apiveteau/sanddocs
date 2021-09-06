@@ -59,14 +59,22 @@ body {
       right: 5px;
       top: 5px;
     }
-    & a {
-      &::before {
-        font-family: "Font Awesome 5 Free";
-        position: absolute;
-        left: 0;
-        top: 50%;
-        content: "\f107";
-        transform: translateY(-50%);
+    & > nav {
+      & > ul {
+        // First level
+        & > li > a {
+          & + .collapser {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            content: "\f067";
+            transform: translateY(-50%);
+            &.open {
+              content: "\f068";
+            }
+          }
+        }
       }
     }
     & ul {
@@ -77,16 +85,12 @@ body {
         line-height: 1.5rem;
       }
     }
-    & nav>ul>ul>ul>li>a {
-      font-size: 22px;
-      font-weight: 300;
-      text-decoration: underline;
-    }
   }
   & > main {
     grid-area: main;
     position: relative;
     box-sizing: border-box;
     padding: 20px;
+    width: calc(100% - 350px);
   }
 }

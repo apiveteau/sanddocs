@@ -3,6 +3,7 @@
     <li>
         <a href="{{ site.url }}{{ baseurl }}{{ item.link }}">{{ item.name }}</a>
         {% if item.subnav %}
+            <button class="collapser"></button>
             {% include navigation.html nav=item.subnav %}
         {% endif %}
     </li>
