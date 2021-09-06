@@ -1,10 +1,13 @@
+title: DataMa Home Page
+description: The Home page shows all your worbooks and workflows. A workbook is a DataMa analysis, which can be using on one or multiple DataMa solutions.
+---
 # Home Page
 
 > **The Home page is where you can administrate your different workbooks, or create new ones.**
 
 <center><img src="home/images/Home_page_general.png" alt="logo impact" /></center>
 
-The Home page shows all your worbooks.
+The Home page shows all your worbooks and workflows.
 
 A workbook is a DataMa analysis, which can be using on one or multiple DataMa solutions. Each workbook is linked to a dataset.
 
