@@ -12,9 +12,9 @@ $('aside>nav .collapser').on('click', (e) => {
 })
 $(window).on('scroll', (e) => {
     if ($(window).scrollTop() < $('body')[0].offsetHeight / 3) {
-        $('.welcome>.bounce').show()
+        $('.welcome>.bounce').fadeIn(500)
     } else {
-        $('.welcome>.bounce').hide()
+        $('.welcome>.bounce').fadeOut(500)
     }
 })
 $('body').on('click', '#gotoDoc', (e) => {
