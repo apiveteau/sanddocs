@@ -22,8 +22,8 @@ title: DataMa Documentation
 email: contact@datama.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome on DataMa Documentation
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sanddocs" # the subpath of your site, e.g. /blog
+url: "https://apiveteau.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 

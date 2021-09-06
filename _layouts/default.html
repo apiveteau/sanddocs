@@ -7,7 +7,7 @@
     <meta name="og:title" content="{{ page.title }}">
     <meta name="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/sanddocs/assets/css/style.css">
+    <link rel="stylesheet" href="{{url}}{{base_url}}/assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"></script>
@@ -25,11 +25,6 @@
     </header>
     {{ content }}
 </main>
-<script>
-    $('aside>.burger').on('click', (e) => {
-        e.preventDefault();
-        $('body').toggleClass('menu-close')
-    })
-</script>
+<script src="{{url}}{{base_url}}/assets/js/main.js"></script>
 </body>
 </html>
