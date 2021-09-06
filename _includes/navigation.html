@@ -1,7 +1,7 @@
 <ul>
     {% for item in include.nav %}
     <li>
-        <a href="{{ site.url }}{{ baseurl }}/#{{ item.link }}">
+        <a href="{{ site.url }}{{ site.baseurl }}/#{{ item.link }}">
             {{ item.name }}
             {% if item.subnav %}
                 <button class="collapser"></button>
