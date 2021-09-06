@@ -12,7 +12,7 @@ Here is a glimpse on the data:
 
 You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1408263987)
 
-## In LaToMo Compare
+## In DataMa Compare
 
 This example made for financial assessment is different from other examples because the metric relation is not representing a conversion funnel but a business equation.
 
