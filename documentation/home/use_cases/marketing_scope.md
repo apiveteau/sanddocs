@@ -14,4 +14,4 @@ As presented in the data, a column called « Scope » allows to remove part of t
 
 This is helpful to compare your business all things being equal.
 
-![MarketingCampaign-Continous](images/MarketingCampaign-Scope.jpg)
+![MarketingCampaign-Continous](/sanddocs/assets/images/home/use_casesMarketingCampaign-Scope.jpg)
