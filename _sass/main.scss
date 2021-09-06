@@ -155,5 +155,8 @@ body {
     position: relative;
     box-sizing: border-box;
     padding: 20px;
+    & a {
+      font-weight: 600 !important;
+    }
   }
 }
