@@ -67,6 +67,16 @@ body {
     }
     & > nav {
       margin-top: 20px;
+      & > a {
+        width: 100%;
+        display: inline-block;
+        & > img {
+          max-width: calc(100% - 80px);
+          cursor: pointer;
+          margin: 1rem 40px;
+          margin-top: -20px;
+        }
+      }
       & > ul {
         // First level
         & li {
