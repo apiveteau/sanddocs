@@ -1,5 +1,5 @@
 - name: Welcome
-  link: /sanddocs/documentation/README.html
+  link: /sanddocs/documentation/Welcome.md
 - name: DataMa Web application
   link: /sanddocs/documentation/web-application.html
   subnav:
