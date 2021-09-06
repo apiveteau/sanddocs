@@ -13,6 +13,7 @@
 </head>
 <body>
 <div class="welcome">
+    {% include header.html %}
     <div>
         <p><img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/Datama_logo_horizontal2.png" data-origin="images/Datama_logo_horizontal2.png" alt="logo2"></p>
         <h1> Smart analytics. Documented </h1>
@@ -42,7 +43,6 @@
     </ul>
 </aside>
 <main>
-    {% include header.html %}
     <h1>{{ page.title }}</h1>
     {{ content }}
     {% include footer.html %}
