@@ -15,10 +15,11 @@
     <div>
         <p><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Datama_logo_horizontal2.png" data-origin="images/Datama_logo_horizontal2.png" alt="logo2"></p>
         <h1> Smart analytics. Documented </h1>
-        <a href="#/README" class="btn btn-primary">Get Started</a>
+        <a id="gotoDoc" href="#menu" class="btn btn-primary">Get Started</a>
     </div>
+    <span class="bounce"><i class="fas fa-angle-down"></i></span>
 </div>
-<aside>
+<aside id="menu">
     <a href="#" class="burger"><i class="fas fa-bars"></i></a>
     <nav>
         {% include navigation.html nav=site.data.navigation %}

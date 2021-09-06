@@ -10,3 +10,14 @@ $('aside>nav .collapser').on('click', (e) => {
     $(e.target).parent().next().toggleClass('open');
     e.preventDefault();
 })
+$(window).on('scroll', (e) => {
+    if ($(window).scrollTop() < $('body')[0].offsetHeight / 3) {
+        $('.welcome>.bounce').show()
+    } else {
+        $('.welcome>.bounce').hide()
+    }
+})
+$('body').on('click', '#gotoDoc', (e) => {
+    e.preventDefault();
+    $('html, body').animate( { scrollTop: $('#menu').offset().top }, 750 );
+})
