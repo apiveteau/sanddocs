@@ -13,7 +13,7 @@ As presented in the data, one of the dimension is a continuous dimension. This d
 
 This could be done whatever the continuous dimension represents.
 
-![MarketingCampaign-Continous](/sanddocs/assets/images/home/use_cases/MarketingCampaign-Continous.jpg)
+![MarketingCampaign-Continous]({{site.url}}{{site.baseurl}}/assets/images/home/use_cases/MarketingCampaign-Continous.jpg)
 
 Below is an extract of the data that has been used for this example. You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=643112391)
 

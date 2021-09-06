@@ -12,6 +12,7 @@ if (Cookies.get('menu') != null) {
     expanded = []
     Cookies.set('menu', '')
 }
+$('a[href$="' + location.pathname + '"').addClass('active');
 /**
  * Aside open/close
  */

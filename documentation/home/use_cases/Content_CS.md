@@ -14,4 +14,4 @@ You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bN
 
 This example is especially made to show how to analyze Content Square data within LaToMo Compare. This will help to understand according which elements your site is performing better and compare different version of your website.
 
-You could as well add a lot more dimensions and a lot more steps in your conversion funnel.
+You could as well add a lot more dimensions, and a lot more steps in your conversion funnel.
