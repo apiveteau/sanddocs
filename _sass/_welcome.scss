@@ -1,0 +1,38 @@
+.welcome {
+  width: 100%;
+  height: calc(100vh - 10px);
+  background: linear-gradient(to left bottom, #FFFFFF 0%, #8fb5b3 35%);
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom left, white, transparent);
+    opacity: 0.4;
+  }
+  & > div {
+    max-width: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    & > p {
+      & > img {
+        width: 100%;
+      }
+    }
+    & > h1 {
+      color: white;
+      font-weight: 300;
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+}
