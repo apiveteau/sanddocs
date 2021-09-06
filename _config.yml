@@ -22,7 +22,7 @@ title: LaToMo Documentation
 email: contact@LaToMo.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome on DataMa Documentation
-baseurl: "/sanddocs/#" # the subpath of your site, e.g. /blog
+baseurl: "/sanddocs" # the subpath of your site, e.g. /blog
 url: "https://apiveteau.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
