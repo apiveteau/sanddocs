@@ -1,4 +1,8 @@
-# Finance Controlling
+---
+title: Finance Controlling
+description: This example made for financial assessment is different from other examples because the metric relation is not representing a conversion funnel but a business equation.
+layout: page
+---
 
 > Find below information about the **« Finance – Controlling»**  example in our [demo](https://solutions.LaToMo.fr/) solution.
 

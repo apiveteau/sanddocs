@@ -4,8 +4,6 @@ title: Smart Analytics, Documented.
 description: This documentation gives you an overview of how LaToMo works and how to use it. You may explore the differents articles to have an overall explanation of the app or to check detailed features for a specific solution.
 ---
 
-# Smart analytics. Documented 
-
 **This documentation gives you an overview of how LaToMo works and how to use it. You may explore the differents articles to have an overall explanation of the app or to check detailed features for a specific solution.**
 
 ## LaToMo Web application

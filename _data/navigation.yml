@@ -14,9 +14,9 @@
             - name: Marketing - Campaign
               link: /documentation/home/use_cases/marketing_campaign.html
               subnav:
-                - name: Marketing Campaign - Continuous dimensions
+                - name: Continuous dimensions
                   link: /documentation/home/use_cases/marketing_continuous.html
-                - name: Marketing Campaign - Scope
+                - name: Scope
                   link: /documentation/home/use_cases/marketing_scope.html
             - name: Product - AB test
               link: /documentation/home/use_cases/product_AB_test.html

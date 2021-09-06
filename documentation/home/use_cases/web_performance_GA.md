@@ -1,7 +1,9 @@
+---
 title: Web performance – Google Analytics
 description: This use case is a basic example of conversion funnel used in a eCommerce Website. This one is the Google Store website used for the Google Analytics demo, where google sales branded T-shirt and Caps…
 layout: page
 ---
+
 This use case is a basic example of conversion funnel used in a eCommerce Website. This one is the Google Store website used for the Google Analytics demo, where google sales branded T-shirt and Caps…
 
 In that specific use case, we compare revenue between 2 weeks (Year over Year) to help the eCommerce manager analyse its performance. We compare one week "Last Year" and one week "This Year"

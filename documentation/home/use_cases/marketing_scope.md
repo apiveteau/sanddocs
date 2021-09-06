@@ -1,4 +1,8 @@
-# Marketing Campaign – Scope
+---
+title: Marketing Campaign - Scope
+description: As presented in the data, a column called « Scope » allows to remove part of the data in the analyse but still consider this amount in the total (dark blue and light blue). The waterfall in LaToMo Compare assessment will not consider the out of scope data.
+layout: page
+---
 
 > Find below information about the **« Marketing Campaign – Scope»**  example in our [demo](https://solutions.LaToMo.fr/) solution.
 

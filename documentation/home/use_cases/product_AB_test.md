@@ -1,4 +1,8 @@
-# Product - AB test
+---
+title: Product - AB test
+description: As for the other examples, number of dimension could be extended to all the data available from your AB Test.
+layout: page
+---
 
 > Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.LaToMo.fr/) solution.
 

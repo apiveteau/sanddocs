@@ -1,6 +1,8 @@
-# Get inspired
-
-------------------
+---
+title: Get inspired
+description: LaToMo Solutions can be used to help you take the right dataset on any type of use cases and related dataset.
+layout: page
+---
 
 LaToMo Solutions can be used to help you take the right dataset on any type of use cases and related dataset.
 This being said, most use cases today are in the web analytics/ marketing/ transactional/ financial domains.

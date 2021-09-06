@@ -1,9 +1,8 @@
 ---
-title: LaToMo Home Page
+title: Home Page
 description: The Home page shows all your worbooks and workflows. A workbook is a LaToMo analysis, which can be using on one or multiple LaToMo solutions.
 layout: page
 ---
-# Home Page
 
 > **The Home page is where you can administrate your different workbooks, or create new ones.**
 
