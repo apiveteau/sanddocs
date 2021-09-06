@@ -3,6 +3,15 @@ body {
   font-weight: 400;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 1.5rem 25% !important;
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
 a.active {
   font-weight: 600;
 }

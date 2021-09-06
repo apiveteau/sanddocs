@@ -22,7 +22,7 @@
               link: /documentation/home/use_cases/product_AB_test.html
             - name: Finance Controlling
               link: /documentation/home/use_cases/finance_controlling.html
-            - name: Content - Content Square data
+            - name: Content Square data
               link: /documentation/home/use_cases/Content_CS.html
     - name: Core app
       link: /documentation/core-app.html

@@ -4,7 +4,7 @@ description: This use case is a basic example of conversion funnel used for an e
 layout: page
 ---
 
-> Find below information about the **« Marketing – Campaign »**  example in our [demo](https://solutions.LaToMo.fr/) solution.
+> Find below information about the **« Marketing – Campaign »**  example in our [demo](https://solutions.datama.fr/) solution.
 
 Below is an extract of the data that has been used for this example. You can download the source: [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=1286768317)
 
@@ -12,7 +12,7 @@ Below is an extract of the data that has been used for this example. You can dow
 
 ## In LaToMo Compare
 
-Read our [article](https://LaToMo.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis
+Read our [article](https://datama.fr/fr/2019/04/11/comment-analyser-lefficacite-dune-campagne-demailing-2/) to better understand emailing campaign analysis
 
 This use case is a basic example of conversion funnel used for an email campaign. In that case LaToMo Compare will help to compare 2 different campaign and identify the performance at each step of the two campaigns and understand from which element is mainly due this difference between each campaign.
 

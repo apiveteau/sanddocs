@@ -9,7 +9,7 @@ This being said, most use cases today are in the web analytics/ marketing/ trans
 
 To help you get inspired with you own data, we provide a set of example workbooks.
 
-Please check all live examples on [solutions.LaToMo.fr](http://solutions.LaToMo.fr/), and pick the one closest to your current working field.
+Please check all live examples on [solutions.datama.fr](http://solutions.datama.fr/), and pick the one closest to your current working field.
 
 All the data used in the different use cases are available in public Google sheets:
 * LaToMo Compare & Pivot & Impact [sources](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t4ff1xcJkSBKoVvwJd4vKB0sDzs/edit#gid=0)

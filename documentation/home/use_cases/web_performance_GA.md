@@ -14,7 +14,7 @@ Access to the [Gsheet](https://docs.google.com/spreadsheets/d/1bNEeqm5CfpPmYPr_t
 
 ## In LaToMo Compare
 
-Please read this [article](https://LaToMo.fr/2017/10/10/what-on-earth-is-driving-my-conversion-down-this-week/) for a step by step explanation of the use case
+Please read this [article](https://datama.fr/2017/10/10/what-on-earth-is-driving-my-conversion-down-this-week/) for a step by step explanation of the use case
 
 **Below is a video of this use case with explanation of the overall LaToMo Compare functionalities**
 

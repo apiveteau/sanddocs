@@ -9,9 +9,9 @@
 
 .btn-primary {
   background-color: $datagreen_light;
-  color: $white;
+  color: $white !important;
   &:hover {
-    color: $white;
+    color: $white !important;
   }
 }
 

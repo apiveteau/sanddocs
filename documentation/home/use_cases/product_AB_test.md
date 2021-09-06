@@ -4,7 +4,7 @@ description: As for the other examples, number of dimension could be extended to
 layout: page
 ---
 
-> Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.LaToMo.fr/) solution.
+> Find below information about the **«Product – AB Test»**  example in our [demo](https://solutions.datama.fr/) solution.
 
 As for the other examples, number of dimension could be extended to all the data available from your AB Test.
 

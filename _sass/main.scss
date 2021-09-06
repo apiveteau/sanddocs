@@ -65,6 +65,21 @@ body {
         text-decoration: none;
       }
     }
+    & > ul {
+      & > li:nth-child(2) {
+        margin-top: 10px;
+      }
+      & > li > a {
+        margin-bottom: 5px;
+        display: inline-block;
+        width: 100%;
+        & > img {
+          width: 20px;
+          height: 20px;
+          margin-right: 20px;
+        }
+      }
+    }
     & > nav {
       margin-top: 20px;
       & > a {
@@ -78,6 +93,7 @@ body {
         }
       }
       & > ul {
+        padding: 0;
         // First level
         & li {
           & > a {
@@ -89,7 +105,7 @@ body {
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;
-            padding-right: 30px;
+            padding-left: 30px;
             box-sizing: border-box;
             & > .collapser {
               position: absolute;
@@ -101,7 +117,7 @@ body {
               border: none;
               bottom: 0;
               top: 50%;
-              right: 0;
+              left: 0;
               transform: translateY(-50%);
               line-height: 20px;
               color: $datagreen;
