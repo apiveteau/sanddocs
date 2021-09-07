@@ -1,6 +1,9 @@
-# News
+---
+title: News
+description: Find here the **latest releases** of DataMa Solutions
+---
 
-> Find here the **latest releases** of DataMa Solutions
+> {{ page.description }}
 
 ### 2021-04-24:
 
