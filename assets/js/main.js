@@ -16,7 +16,7 @@ $('a[href$="' + location.pathname + '"').addClass('active');
 /**
  * Aside open/close
  */
-$('aside>.burger').on('click', (e) => {
+$('aside>header>.burger').on('click', (e) => {
     e.preventDefault();
     $('body').toggleClass('menu-close')
 })

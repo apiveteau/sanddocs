@@ -27,27 +27,7 @@
     </div>
     <span class="bounce"><i class="fas fa-angle-down"></i></span>
 </div>
-<aside id="menu">
-    <a href="#" class="burger"><i class="fas fa-bars"></i></a>
-    <nav>
-        {% include navigation.html nav=site.data.navigation %}
-    </nav>
-    <hr>
-    <ul>
-        <li>
-            <strong>Links</strong>
-        </li>
-        <li>
-            <a href="https://datama.fr" title="Website"> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/cropped-Datala-Logo.png">Website</a>
-        </li>
-        <li>
-            <a href="https://twitter.com/DataMa_Solution" title="Twitter"> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/twitter.png" style="width: 20px; height: 20px;">Twitter</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/company/11195323" title="LinkedIn"> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/logo-linkedin.png">LinkedIn</a>
-        </li>
-    </ul>
-</aside>
+{% include navigation.html nav=site.data.navigation %}
 <main>
     <h1>{{ page.title }}</h1>
     {{ content }}
