@@ -1,5 +1,10 @@
 ---
 title: Tips of the week !
+layout: page
+img_url: /assets/images/tip/37.gif
+img_type: image/gif
+img_width: 600
+img_height: 300
 description: |
   It's hard to keep up with the frantic release pace of the product team :sweat_smile:
   
@@ -8,10 +13,6 @@ description: |
   On the menu is the anomaly detection in DataMa Impact, which allows to quickly identify an abnormal point in the monitoring of a KPI, and then to understand its drivers.
   
   Compatible with the classic Datama sources, you just need to activate the 'anomaly detection' toggle at the top left of Impact to see the results appear, which will soon be automatically exportable in a slack or an email :bell:
-img_url: /assets/images/tip/37.gif
-img_type: image/gif
-img_width: 600
-img_height: 300
 ---
 
 ## Tip of the week #37
