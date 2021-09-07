@@ -40,6 +40,9 @@ body {
       & > nav {
         display: none;
       }
+      &.fixed+main {
+        margin-left: 50px !important;
+      }
     }
   }
   & > * {
@@ -187,6 +190,14 @@ body {
       li {
         line-height: 1.5rem;
       }
+    }
+    &.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    &.fixed+main {
+      margin-left: 250px !important;
     }
   }
   & > main {

@@ -37,6 +37,13 @@ $(window).on('scroll', (e) => {
     } else {
         $('.welcome>.bounce').fadeOut(500)
     }
+    if ($(window).scrollTop() > $('body>aside').offset().top && !$('body>aside').hasClass('fixed')) {
+        $('body>aside').attr('data-offset', $('body>aside').offset().top).addClass('fixed')
+    } else {
+        if ($(window).scrollTop() < $('body>aside').offset().top || ($('body>aside').attr('data-offset') != undefined && $(window).scrollTop() < $('body>aside').attr('data-offset'))) {
+            $('body>aside').removeClass('fixed')
+        }
+    }
 })
 $('body').on('click', '#gotoDoc', (e) => {
     e.preventDefault();
