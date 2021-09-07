@@ -1,0 +1,15 @@
+<ul>
+    {% for item in include.nav %}
+    <li>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ item.link }}">
+            {{ item.name }}
+            {% if item.subnav %}
+                <button class="collapser"></button>
+            {% endif %}
+        </a>
+        {% if item.subnav %}
+            {% include menu.html nav=item.subnav %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

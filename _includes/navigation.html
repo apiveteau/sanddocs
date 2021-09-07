@@ -1,15 +1,24 @@
-<ul>
-    {% for item in include.nav %}
-    <li>
-        <a href="{{ site.url }}{{ site.baseurl }}{{ item.link }}">
-            {{ item.name }}
-            {% if item.subnav %}
-                <button class="collapser"></button>
-            {% endif %}
-        </a>
-        {% if item.subnav %}
-            {% include navigation.html nav=item.subnav %}
-        {% endif %}
-    </li>
-    {% endfor %}
-</ul>
+<aside id="menu">
+    <header>
+        <a  href="{{site.url}}{{site.baseurl}}" target="_blank" title="Go to home page of documentation"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/white_logo.png" alt="" title="Go to DataMa website">DataMa</a>
+        <a href="#" class="burger" title="Collapse/Expand sidebar"><i class="fas fa-bars"></i></a>
+    </header>
+    <nav>
+        {% include menu.html nav=include.nav %}
+        <hr>
+        <ul>
+            <li>
+                <strong>Links</strong>
+            </li>
+            <li>
+                <a href="https://datama.fr" title="Website"> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/cropped-Datala-Logo.png">Website</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/DataMa_Solution" title="Twitter"> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/twitter.png" style="width: 20px; height: 20px;">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/11195323" title="LinkedIn"> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aside/logo-linkedin.png">LinkedIn</a>
+            </li>
+        </ul>
+    </nav>
+</aside>
