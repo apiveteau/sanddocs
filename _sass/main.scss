@@ -25,7 +25,7 @@ body {
         & > .burger {
           margin-top: 40px;
           margin-left: -40px;
-          color: #333;
+          color: #333 !important;
           &::after {
             content: "\f0da";
             margin-left: 5px;
